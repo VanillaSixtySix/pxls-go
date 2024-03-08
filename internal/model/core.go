@@ -1,5 +1,11 @@
 package model
 
+type Pagination struct {
+	Items    interface{} `json:"items"`
+	Next     string      `json:"next"`
+	Previous string      `json:"previous"`
+}
+
 type Board struct {
 	Name               string         `json:"name"`
 	CreatedAt          int            `json:"created_at"`

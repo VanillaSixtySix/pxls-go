@@ -1,0 +1,5 @@
+[httpserver]
+address = ":8080"
+
+[database]
+url = "postgres://pxlsgo:pxlsgo@localhost:5432/pxlsgo"
